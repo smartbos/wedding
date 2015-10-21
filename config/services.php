@@ -38,6 +38,6 @@ return [
     'facebook' => [
         'client_id' => '361562150596021',
         'client_secret' => '8d2013e71a68dd9e371c21b1d10ef6f2',
-        'redirect' => 'http://localwedding.leehyunseok.com/fb_callback',
+        'redirect' => 'http://wedding.leehyunseok.com/fb_callback',
     ],
 ];
