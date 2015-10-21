@@ -180,7 +180,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>2부 웨딩파티</h2>
                 <p>2015년 11월 6일 오후 6시</p>
-                <p>서울시 중구 퇴계로30길 14 삼원빌딩 레스토랑24번가</p>
+                <p>서울시 중구 퇴계로30길 14 레스토랑24번가</p>
                 <p>
                     @if(!Auth::check())
                         @if($user && $user->want_party == 1)
@@ -188,7 +188,7 @@
                         @else
                             <a href="/partyIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 페이스북으로 참석신청</a>
                             <br />
-                            <span style="color:#aaaaaa; font-size:16px;">(예약인원을 가늠하기 위한 것이며, 페이스북에 게시하지 않습니다.)</span>
+                            <span style="color:#aaaaaa; font-size:16px;">예약인원을 파악하기 위한 것입니다</span>
                         @endif
                     @else
                         @if($user && $user->want_party == 1)
@@ -196,7 +196,7 @@
                         @else
                             <a href="/partyIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 페이스북으로 참석신청</a>
                             <br />
-                            <span style="color:#aaaaaa; font-size:16px;">(예약인원을 가늠하기 위한 것이며, 페이스북에 게시하지 않습니다.)</span>
+                            <span style="color:#aaaaaa; font-size:16px;">예약인원을 파악하기 위한 것입니다</span>
                         @endif
                     @endif
                 </p>
@@ -247,7 +247,7 @@
                         @else
                             <a href="/matchIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 소개팅인듯 소개팅아닌 소개팅같은거 신청</a>
                             <br />
-                            <span style="color:#aaaaaa; font-size:16px;">(못해줄 수도 있습니다...)</span>
+                            <span style="color:#aaaaaa; font-size:16px;">못해줄 수도 있습니다...<br> 페이스북에 게시하지 않습니다</span>
                         @endif
                     @else
                         @if($user && $user->want_match)
@@ -255,7 +255,7 @@
                         @else
                             <a href="/matchIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 소개팅인듯 소개팅아닌 소개팅같은거 신청</a>
                             <br />
-                            <span style="color:#aaaaaa; font-size:16px;">(못해줄 수도 있습니다...)</span>
+                            <span style="color:#aaaaaa; font-size:16px;">못해줄 수도 있습니다...<br> 페이스북에 게시하지 않습니다</span>
                         @endif
                     @endif
                 </p>
