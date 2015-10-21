@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>李炫錫 王宣映 結婚</title>
+    <title>Lee & Wang's Wedding</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/startbootstrap-grayscale-1.0.4/css/bootstrap.min.css" rel="stylesheet">
@@ -66,7 +66,12 @@
         }
 
         .content-section {
-            padding-top: 100px;
+            padding-top:150px;
+            padding-bottom:0;
+        }
+
+        .content-section > .container {
+            padding-bottom: 100px;
         }
 
         .cover {
@@ -103,7 +108,8 @@
                 <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                李炫錫 王宣映 結婚
+                <!--李炫錫 王宣映 結婚-->
+                Lee & Wang's Wedding
             </a>
         </div>
 
@@ -122,6 +128,9 @@
                 </li>
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#match">Some</a>
                 </li>
             </ul>
         </div>
@@ -172,6 +181,25 @@
                 <h2>2부 웨딩파티</h2>
                 <p>2015년 11월 6일 오후 6시</p>
                 <p>서울시 중구 퇴계로30길 14 삼원빌딩 레스토랑24번가</p>
+                <p>
+                    @if(!Auth::check())
+                        @if($user && $user->want_party == 1)
+                            <a href="/partyOut" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 신청취소</a>
+                        @else
+                            <a href="/partyIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 페이스북으로 참석신청</a>
+                            <br />
+                            <span style="color:#aaaaaa; font-size:16px;">(예약인원을 가늠하기 위한 것이며, 페이스북에 게시하지 않습니다.)</span>
+                        @endif
+                    @else
+                        @if($user && $user->want_party == 1)
+                            <a href="/partyOut" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 신청취소</a>
+                        @else
+                            <a href="/partyIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 페이스북으로 참석신청</a>
+                            <br />
+                            <span style="color:#aaaaaa; font-size:16px;">(예약인원을 가늠하기 위한 것이며, 페이스북에 게시하지 않습니다.)</span>
+                        @endif
+                    @endif
+                </p>
             </div>
         </div>
     </div>
@@ -182,20 +210,56 @@
 <div id="map3" style="width:100%;height:50%;"></div>
 
 <!-- Contact Section -->
-<section id="contact" class="container content-section text-center">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-            <h2>Gilchi?</h2>
-            <p></p>
-            <p>못찾겠다 꾀꼬리 외칠 번호</p>
-            <ul class="list-inline banner-social-buttons">
-                <li>
-                    <a href="tel:010-2956-3707" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">신랑 010.2956.3707</span></a>
-                </li>
-                <li>
-                    <a href="tel:010-2956-3707" class="btn btn-default btn-lg"><i class="fa fa-home fa-fw"></i> <span class="network-name">신부 010.6889.1227</span></a>
-                </li>
-            </ul>
+<section id="contact" class="content-section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Gilchi?</h2>
+                <p></p>
+                <p>못찾겠다 꾀꼬리 외칠 번호</p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="tel:010-2956-3707" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">신랑 010.2956.3707</span></a>
+                    </li>
+                    <li>
+                        <a href="tel:010-2956-3707" class="btn btn-default btn-lg"><i class="fa fa-home fa-fw"></i> <span class="network-name">신부 010.6889.1227</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<section id="match" class="content-section text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Solo?</h2>
+                <p>
+                    신랑신부 지인들 참 좋은데, 정말 좋은데, 뭐라고 설명할 방법이 없네. <br>
+                </p>
+                <p>
+                    @if(!Auth::check())
+                        @if($user && $user->want_match)
+                            <a href="/matchOut" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 신청취소</a>
+                        @else
+                            <a href="/matchIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 소개팅인듯 소개팅아닌 소개팅같은거 신청</a>
+                            <br />
+                            <span style="color:#aaaaaa; font-size:16px;">(못해줄 수도 있습니다...)</span>
+                        @endif
+                    @else
+                        @if($user && $user->want_match)
+                            <a href="/matchOut" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 신청취소</a>
+                        @else
+                            <a href="/matchIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 소개팅인듯 소개팅아닌 소개팅같은거 신청</a>
+                            <br />
+                            <span style="color:#aaaaaa; font-size:16px;">(못해줄 수도 있습니다...)</span>
+                        @endif
+                    @endif
+                </p>
+            </div>
         </div>
     </div>
 </section>
@@ -217,7 +281,8 @@
         map = new google.maps.Map(document.getElementById('map2'), {
             center: {lat: 37.5603973, lng: 126.9946112},
             zoom: 17,
-            scrollwheel: false
+            scrollwheel: false,
+            draggable: false
         });
 
         var marker = new google.maps.Marker({
@@ -229,7 +294,8 @@
         map = new google.maps.Map(document.getElementById('map3'), {
             center: {lat: 37.5604288, lng: 126.991924},
             zoom: 17,
-            scrollwheel: false
+            scrollwheel: false,
+            draggable: false
         });
 
         var marker = new google.maps.Marker({

@@ -17,6 +17,10 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password', 60);
+            $table->string('fb_id')->index();
+            $table->string('fb_profile_img');
+            $table->string('want_party');
+            $table->string('want_match');
             $table->rememberToken();
             $table->timestamps();
         });
