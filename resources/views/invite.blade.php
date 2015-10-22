@@ -245,7 +245,7 @@
                         @if($user && $user->want_match)
                             <a href="/matchOut" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 신청취소</a>
                         @else
-                            <a href="/matchIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 소개팅인듯 소개팅아닌 소개팅같은거 신청</a>
+                            <a href="/matchIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 소개팅인듯 소개팅아닌 소개팅같은거 <br/>페이스북으로 신청</a>
                             <br />
                             <span style="color:#aaaaaa; font-size:16px;">못해줄 수도 있습니다...<br> 페이스북에 게시하지 않습니다</span>
                         @endif
@@ -253,9 +253,9 @@
                         @if($user && $user->want_match)
                             <a href="/matchOut" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 신청취소</a>
                         @else
-                            <a href="/matchIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 소개팅인듯 소개팅아닌 소개팅같은거 신청</a>
+                            <a href="/matchIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 소개팅인듯 소개팅아닌 <br/>소개팅같은거 신청</a>
                             <br />
-                            <span style="color:#aaaaaa; font-size:16px;">못해줄 수도 있습니다...<br> 페이스북에 게시하지 않습니다</span>
+                            <span style="color:#aaaaaa; font-size:16px;">못해줄 수도 있습니다...</span>
                         @endif
                     @endif
                 </p>
