@@ -278,7 +278,7 @@
 
         map = new google.maps.Map(document.getElementById('map3'), {
             center: {lat: 37.5448814, lng: 126.9258274},
-            zoom: 15
+            zoom: 16
         });
 
         var marker = new google.maps.Marker({
