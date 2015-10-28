@@ -90,7 +90,7 @@
         #second-img {
             width: 100%;
             height: 300px;
-            background-image: url("http://mblogthumb3.phinf.naver.net/20131031_38/ekoo7777_1383146649933dXqFq_JPEG/IMG_5923.JPG?type=w2");
+            background-image: url('http://cdn.pinspot.co.kr/product/47/YCTei8Ub3qMx1LzWVI5p.JPG');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 50% 50%;
@@ -164,7 +164,10 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>1부 전통혼례</h2>
                 <p>2015년 11월 6일 오후 4시</p>
-                <p>서울시 중구 퇴계로36길 10 한국의집</p>
+                <p>
+                    서울시 중구 퇴계로36길 10 한국의집 <br>
+                    <a href="http://map.naver.com/?menu=route&mapMode=0&lat=37.5609793&lng=126.9937071&dlevel=14&slng=126.9941722&slat=37.5612572&sdid=20536717&elng=126.9946116&elat=37.5603974&eelng=126.9938125&eelat=37.5607083&edid=11715055&pathType=3&dtPathType=0&sText=7Lap66y066Gc7JetIDTtmLjshKA%3D&eText=7ZWc6rWt7J2Y7KeR&enc=b64" target="_blank">도보 길 안내</a>
+                </p>
             </div>
         </div>
     </div>
@@ -179,26 +182,10 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>2부 웨딩파티</h2>
-                <p>2015년 11월 6일 오후 6시</p>
-                <p>서울시 중구 퇴계로30길 14 레스토랑24번가</p>
+                <p>2015년 11월 6일 오후 7시</p>
                 <p>
-                    @if(!Auth::check())
-                        @if($user && $user->want_party == 1)
-                            <a href="/partyOut" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 신청취소</a>
-                        @else
-                            <a href="/partyIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 페이스북으로 참석신청</a>
-                            <br />
-                            <span style="color:#aaaaaa; font-size:16px;">예약인원을 파악하기 위한 것입니다</span>
-                        @endif
-                    @else
-                        @if($user && $user->want_party == 1)
-                            <a href="/partyOut" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 신청취소</a>
-                        @else
-                            <a href="/partyIn" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-lw"></i> 페이스북으로 참석신청</a>
-                            <br />
-                            <span style="color:#aaaaaa; font-size:16px;">예약인원을 파악하기 위한 것입니다</span>
-                        @endif
-                    @endif
+                    서울시 마포구 토정로 136-13 J&C빌딩 5층 <br>
+                    <a href="http://map.naver.com/?menu=route&mapMode=0&lat=37.5462993&lng=126.9248621&dlevel=12&slng=126.9229769&slat=37.5477455&sdid=13479524&elng=126.9258274&elat=37.5448814&edid=18779737&pathType=3&dtPathType=0&sText=7IOB7IiY7JetIDbtmLjshKA%3D&eText=7KCc7J207JWk7JSo67mM65Sp&enc=b64" target="_blank">도보 길 안내</a>
                 </p>
             </div>
         </div>
@@ -292,16 +279,14 @@
         });
 
         map = new google.maps.Map(document.getElementById('map3'), {
-            center: {lat: 37.5604288, lng: 126.991924},
-            zoom: 17,
-            scrollwheel: false,
-            draggable: false
+            center: {lat: 37.5448814, lng: 126.9258274},
+            zoom: 17
         });
 
         var marker = new google.maps.Marker({
-            position: {lat: 37.5604288, lng: 126.991924},
+            position: {lat: 37.5448814, lng: 126.9258274},
             map: map,
-            title: '레스토랑 24번가'
+            title: 'J&C빌딩'
         });
     }
 
