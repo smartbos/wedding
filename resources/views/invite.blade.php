@@ -91,6 +91,24 @@
             background-position: 50% 50%;
         }
 
+        #wedding-ceremony {
+            width: 100%;
+            height: 200px;
+            background-image: url('http://wedding.leehyunseok.com/wedding.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+
+        #party {
+            width: 100%;
+            height: 200px;
+            background-image: url('http://wedding.leehyunseok.com/party.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+
         #second-img {
             width: 100%;
             height: 200px;
@@ -175,11 +193,8 @@
         </div>
     </div>
     <div id="first-img"></div>
+    <div id="wedding-ceremony"></div>
 </section>
-
-<!-- Map Section -->
-<div id="map2" style="width:100%;height:50%;"></div>
-<p style="text-align: center;padding-top:5px;"><a href="http://dmaps.kr/t9du" target="_blank" class="btn btn-default">도보 길 안내</a></p>
 
 <section id="second" class="content-section text-center">
     <div class="container container_small">
@@ -194,10 +209,8 @@
         </div>
     </div>
     <div id="second-img"></div>
+    <div id="party"></div>
 </section>
-
-<!-- Map Section -->
-<div id="map3" style="width:100%;height:50%;"></div>
 
 <!-- Contact Section -->
 <section id="contact" class="content-section text-center">
