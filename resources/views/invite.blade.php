@@ -165,8 +165,7 @@
                 <h2>1부 전통혼례</h2>
                 <p>2015년 11월 6일 오후 4시</p>
                 <p>
-                    서울시 중구 퇴계로36길 10 한국의집 <br>
-                    <a href="http://map.naver.com/?menu=route&mapMode=0&lat=37.5609793&lng=126.9937071&dlevel=14&slng=126.9941722&slat=37.5612572&sdid=20536717&elng=126.9946116&elat=37.5603974&eelng=126.9938125&eelat=37.5607083&edid=11715055&pathType=3&dtPathType=0&sText=7Lap66y066Gc7JetIDTtmLjshKA%3D&eText=7ZWc6rWt7J2Y7KeR&enc=b64" target="_blank">도보 길 안내</a>
+                    서울시 중구 퇴계로36길 10 한국의집
                 </p>
             </div>
         </div>
@@ -176,6 +175,7 @@
 
 <!-- Map Section -->
 <div id="map2" style="width:100%;height:50%;"></div>
+<p style="text-align: center;"><a href="http://map.naver.com/?menu=route&mapMode=0&lat=37.5609793&lng=126.9937071&dlevel=14&slng=126.9941722&slat=37.5612572&sdid=20536717&elng=126.9946116&elat=37.5603974&eelng=126.9938125&eelat=37.5607083&edid=11715055&pathType=3&dtPathType=0&sText=7Lap66y066Gc7JetIDTtmLjshKA%3D&eText=7ZWc6rWt7J2Y7KeR&enc=b64" target="_blank">도보 길 안내</a></p>
 
 <section id="second" class="content-section text-center">
     <div class="container">
@@ -184,8 +184,7 @@
                 <h2>2부 웨딩파티</h2>
                 <p>2015년 11월 6일 오후 7시</p>
                 <p>
-                    서울시 마포구 토정로 136-13 J&C빌딩 5층 <br>
-                    <a href="http://map.naver.com/?menu=route&mapMode=0&lat=37.5462993&lng=126.9248621&dlevel=12&slng=126.9229769&slat=37.5477455&sdid=13479524&elng=126.9258274&elat=37.5448814&edid=18779737&pathType=3&dtPathType=0&sText=7IOB7IiY7JetIDbtmLjshKA%3D&eText=7KCc7J207JWk7JSo67mM65Sp&enc=b64" target="_blank">도보 길 안내</a>
+                    서울시 마포구 토정로 136-13 J&C빌딩 5층
                 </p>
             </div>
         </div>
@@ -195,6 +194,7 @@
 
 <!-- Map Section -->
 <div id="map3" style="width:100%;height:50%;"></div>
+<p style="text-align: center;"><a href="http://map.naver.com/?menu=route&mapMode=0&lat=37.5462993&lng=126.9248621&dlevel=12&slng=126.9229769&slat=37.5477455&sdid=13479524&elng=126.9258274&elat=37.5448814&edid=18779737&pathType=3&dtPathType=0&sText=7IOB7IiY7JetIDbtmLjshKA%3D&eText=7KCc7J207JWk7JSo67mM65Sp&enc=b64" target="_blank">도보 길 안내</a></p>
 
 <!-- Contact Section -->
 <section id="contact" class="content-section text-center">
@@ -280,7 +280,7 @@
 
         map = new google.maps.Map(document.getElementById('map3'), {
             center: {lat: 37.5448814, lng: 126.9258274},
-            zoom: 17
+            zoom: 14
         });
 
         var marker = new google.maps.Marker({
