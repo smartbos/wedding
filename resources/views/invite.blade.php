@@ -71,7 +71,11 @@
         }
 
         .content-section > .container {
-            padding-bottom: 50px;
+            padding-bottom: 100px;
+        }
+
+        .content-section > .container_small {
+            padding-bottom: 20px;
         }
 
         .cover {
@@ -93,7 +97,7 @@
             background-image: url('http://cdn.pinspot.co.kr/room/1155/960x720/XshT2aJYrtG1lMvq47eZ.JPG');
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: 50% 50%;
+            background-position: 50% 60%;
         }​​
     </style>
 </head>
@@ -159,7 +163,7 @@
 -->
 
 <section id="first" class="content-section text-center">
-    <div class="container">
+    <div class="container container_small">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>1부 전통혼례</h2>
@@ -177,7 +181,7 @@
 <div id="map2" style="width:100%;height:50%;"></div>
 
 <section id="second" class="content-section text-center">
-    <div class="container">
+    <div class="container container_small">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>2부 웨딩파티</h2>
