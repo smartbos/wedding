@@ -179,6 +179,7 @@
 
 <!-- Map Section -->
 <div id="map2" style="width:100%;height:50%;"></div>
+<p style="text-align: center;padding-top:5px;"><a href="http://dmaps.kr/t9du" target="_blank" class="btn btn-default">도보 길 안내</a></p>
 
 <section id="second" class="content-section text-center">
     <div class="container container_small">
