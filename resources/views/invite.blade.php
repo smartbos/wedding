@@ -80,7 +80,7 @@
 
         #first-img {
             width: 100%;
-            height: 300px;
+            height: 200px;
             background-image: url("http://www.koreahouse.or.kr/design/default/images/info01_img01.gif");
             background-size: cover;
             background-repeat: no-repeat;
@@ -89,7 +89,7 @@
 
         #second-img {
             width: 100%;
-            height: 300px;
+            height: 200px;
             background-image: url('http://cdn.pinspot.co.kr/product/47/YCTei8Ub3qMx1LzWVI5p.JPG');
             background-size: cover;
             background-repeat: no-repeat;
