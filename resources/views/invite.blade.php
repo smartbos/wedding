@@ -94,7 +94,7 @@
         #wedding-ceremony {
             width: 100%;
             height: 200px;
-            background-image: url('http://wedding.leehyunseok.com/wedding.png');
+            background-image: url('http://wedding.leehyunseok.com/wedding.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 50% 50%;
@@ -103,7 +103,7 @@
         #party {
             width: 100%;
             height: 200px;
-            background-image: url('http://wedding.leehyunseok.com/party.png');
+            background-image: url('http://wedding.leehyunseok.com/party.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 50% 50%;
