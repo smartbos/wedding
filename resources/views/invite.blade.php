@@ -71,7 +71,7 @@
         }
 
         .content-section > .container {
-            padding-bottom: 100px;
+            padding-bottom: 50px;
         }
 
         .cover {
@@ -90,7 +90,7 @@
         #second-img {
             width: 100%;
             height: 200px;
-            background-image: url('http://cdn.pinspot.co.kr/product/47/YCTei8Ub3qMx1LzWVI5p.JPG');
+            background-image: url('http://cdn.pinspot.co.kr/room/1155/960x720/XshT2aJYrtG1lMvq47eZ.JPG');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 50% 50%;
