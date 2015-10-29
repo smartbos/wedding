@@ -203,7 +203,7 @@
     </div>
     <div id="second-img" class="bgimg"></div>
     <img class="walkmap" src="party.png">
-    <p class="maptext">6호선 상수역 3번 출구에서 나와 오른쪽으로 뒤돌아 200m 직진하여 횡단보도 건넌 후, 좌회전하여 '서강8경' 방향으로 직진, '서강8경' 건너편 J&C 건물 5층</p>
+    <p class="maptext">6호선 상수역 3번 출구에서 나와 오른쪽으로 뒤돌아 횡단보도까지 200m 직진 후 좌회전하여 '서강8경' 방향으로 직진, '서강8경' 건너편 J&C 건물 5층</p>
 </section>
 
 <!-- Map Section -->
