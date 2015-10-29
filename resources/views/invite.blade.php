@@ -84,17 +84,8 @@
 
         #first-img {
             width: 100%;
-            height:400px;
+            height:200px;
             background-image: url("http://www.koreahouse.or.kr/design/default/images/info01_img01.gif");
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 50% 50%;
-        }
-
-        #party {
-            width: 100%;
-            height:400px;
-            background-image: url('party.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 50% 50%;
@@ -102,22 +93,12 @@
 
         #second-img {
             width: 100%;
-            height:400px;
+            height:200px;
             background-image: url('http://cdn.pinspot.co.kr/room/1155/960x720/XshT2aJYrtG1lMvq47eZ.JPG');
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: 50% 60%;
+            background-position: 50% 65%;
         }​​
-
-        @media (max-width: 600px) {
-            #first-img,
-            #second-img,
-            #wedding-ceremony,
-            #party {
-                height: 200px;
-                background-size: cover;
-            }
-        }
     </style>
 </head>
 
@@ -193,12 +174,13 @@
             </div>
         </div>
     </div>
-    <div id="first-img"></div>
+    <div id="first-img" class="bgimg"></div>
+    <img class="walkmap" src="wedding.png">
 </section>
 
 <!-- Map Section -->
 {{--<div id="map2" style="width:100%;height:50%;"></div>--}}
-<p style="text-align: center;padding-top:5px;"><a href="wedding.png" target="_blank" class="btn btn-default">도보 길 안내</a></p>
+{{--<p style="text-align: center;padding-top:5px;"><a href="wedding.png" target="_blank" class="btn btn-default">도보 길 안내</a></p>--}}
 
 <section id="second" class="content-section text-center">
     <div class="container container_small">
@@ -212,13 +194,13 @@
             </div>
         </div>
     </div>
-    <div id="second-img"></div>
-    <div id="party"></div>
+    <div id="second-img" class="bgimg"></div>
+    <img class="walkmap" src="party.png">
 </section>
 
 <!-- Map Section -->
 {{--<div id="map3" style="width:100%;height:50%;"></div>--}}
-<p style="text-align: center;padding-top:5px;"><a href="party.png" target="_blank" class="btn btn-default">도보 길 안내</a></p>
+{{--<p style="text-align: center;padding-top:5px;"><a href="party.png" target="_blank" class="btn btn-default">도보 길 안내</a></p>--}}
 
 <!-- Contact Section -->
 <section id="contact" class="content-section text-center">
@@ -314,6 +296,15 @@
         });
     }
 
+    var windowWidth = $(window).width();
+    var weddingImgWidth = $('.walkmap').width();
+
+    var ratio = windowWidth / weddingImgWidth;
+    $('.walkmap').css('width', weddingImgWidth * ratio);
+
+    if(windowWidth > 600) {
+        $('.bgimg').css('height','400px');
+    }
 </script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRoTaTIiYr-xf7nhUR8sQcCRBNVaoQjg0&callback=initMap"></script>
 
