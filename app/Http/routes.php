@@ -111,3 +111,7 @@ Route::get('/logout', function () {
 
     return Redirect::to('/');
 });
+
+Route::get('/test', function() {
+    return view('test');
+});
