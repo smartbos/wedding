@@ -82,6 +82,12 @@
             object-fit: cover;
         }
 
+        .maptext {
+            padding: 10px 30px 0 30px;
+            font-size: 14px;
+            color:#555555;
+        }
+
         #first-img {
             width: 100%;
             height:200px;
@@ -176,6 +182,7 @@
     </div>
     <div id="first-img" class="bgimg"></div>
     <img class="walkmap" src="wedding.png">
+    <p class="maptext">지하철 3,4호선 충무로역 3번 출구</p>
 </section>
 
 <!-- Map Section -->
@@ -196,6 +203,7 @@
     </div>
     <div id="second-img" class="bgimg"></div>
     <img class="walkmap" src="party.png">
+    <p class="maptext">6호선 상수역 3번 출구에서 나와 오른쪽으로 뒤돌아 200m 직진하여 횡단보도 건넌 후, 좌회전하여 '서강8경' 방향으로 직진, '서강8경' 건너편 J&C 건물 5층</p>
 </section>
 
 <!-- Map Section -->
@@ -208,7 +216,6 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Gilchi?</h2>
-                <p></p>
                 <p>못찾겠다 꾀꼬리 외칠 번호</p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
