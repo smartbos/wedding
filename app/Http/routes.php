@@ -13,6 +13,7 @@
 
 use App\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Redirect;
 
 Route::get('/', function () {
@@ -46,6 +47,8 @@ Route::get('/partyOut', function() {
 });
 
 Route::get('/matchIn', function() {
+    Log::info('### match in : ' . date('Y.m.d H:i:s', time()));
+
     if(Auth::check()) {
         $user = Auth::user();
         $user->want_match = 1;
