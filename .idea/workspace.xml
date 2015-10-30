@@ -24,16 +24,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="laravel.log" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8486842">
-              <caret line="783" column="0" selection-start-line="783" selection-start-column="0" selection-end-line="783" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5382979">
+              <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -1272,56 +1269,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92127657">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-          <folding>
-            <marker date="1446166975000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1446166975000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8486842">
-          <caret line="783" column="0" selection-start-line="783" selection-start-column="0" selection-end-line="783" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.57127196">
+          <caret line="772" column="72" selection-start-line="772" selection-start-column="72" selection-end-line="772" selection-end-column="72" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5382979">
+          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

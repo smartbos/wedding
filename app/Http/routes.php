@@ -82,7 +82,7 @@ Route::get('/fb_callback', function () {
         $loginUser = User::create([
             'name' => $user->name,
             'fb_id' => $user->id,
-            'email' => $user->email,
+            'email' => isset($user->email) ? $user->email : 'user' . date('YmdHis',time()) .'@leehyunseok.com',
             'fb_profile_img' => $user->avatar
         ]);
     }
@@ -106,7 +106,7 @@ Route::get('/fb_callback', function () {
         'want_match' => ''
     ]);
 
-    return Redirect::to('/');
+    return Redirect::to('/#match');
 });
 
 Route::get('/logout', function () {
