@@ -302,16 +302,21 @@
             title: 'J&C빌딩'
         });
     }
+</script>
+<script>
+    $(document).ready(function(){
+        setInterval(function() {
+            var windowWidth = $(window).width();
+            var weddingImgWidth = $('.walkmap').width();
 
-    var windowWidth = $(window).width();
-    var weddingImgWidth = $('.walkmap').width();
+            var ratio = windowWidth / weddingImgWidth;
+            $('.walkmap').css('width', weddingImgWidth * ratio);
 
-    var ratio = windowWidth / weddingImgWidth;
-    $('.walkmap').css('width', weddingImgWidth * ratio);
-
-    if(windowWidth > 600) {
-        $('.bgimg').css('height','400px');
-    }
+            if(windowWidth > 600) {
+                $('.bgimg').css('height','400px');
+            }
+        }, 1000);
+    });
 </script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRoTaTIiYr-xf7nhUR8sQcCRBNVaoQjg0&callback=initMap"></script>
 
